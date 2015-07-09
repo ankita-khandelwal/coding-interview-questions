@@ -1,9 +1,8 @@
-
 public class DialogBoxWithSaveAndCancelButtons extends DialogBox{
 	
 	Button cancelButton = new Button();
-	ClickListener cancelButtonClickListener; // provide defintition here of what should happen when user clicks on cancel button.
-	ClickListener saveButtonClickListener; // provide defintion here of what should happen when user clicks on save button
+	Button.ClickListener cancelButtonClickListener; // provide defintition here of what should happen when user clicks on cancel button.
+	Button.ClickListener saveButtonClickListener; // provide defintion here of what should happen when user clicks on save button
 	
 	public DialogBoxWithSaveAndCancelButtons(String title, String message)
 	{

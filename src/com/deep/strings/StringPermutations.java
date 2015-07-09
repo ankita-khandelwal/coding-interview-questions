@@ -1,4 +1,4 @@
-package com.deep.stringManipulations;
+package com.deep.strings;
 
 public class StringPermutations {
 

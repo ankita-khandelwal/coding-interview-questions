@@ -1,13 +1,17 @@
+import javax.swing.text.Style;
 
 class Widget {
-	setWidth(int pixels)
-	int getWidth()
-	setHeight(int pixels)
-int getHeight()
-setStyle(Style style)
-Style getStyle()
-showBorder(Boolean showBorder)
-setBorderColor(ColorCode colorCode)
-ColorCode getBorderColor()
+	public void setWidth(int pixels){}
+	public void getWidth(){}
+	public void setHeight(int pixels){}
+public void getHeight(){}
+public void setStyle(Style style){}
+public void getStyle(){}
+public void showBorder(Boolean showBorder){}
+public void setBorderColor(ColorCode colorCode){}
+public void getBorderColor(){}
+
+	private class ColorCode {
+	}
 }
 

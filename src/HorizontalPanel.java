@@ -1,7 +1,9 @@
+import java.awt.*;
+
 class HorizontalPanel extends Panel {
-	setHorizontalPadding(int pixels)
-	int getHorizontalPadding()
-	insertWidget(Widget widget, Widget beforeWidget)
-	setHorizontalAlignment(HorizontalAlignment horizontalAlignment)
-	HorizontalAlignment getHorizontalAlignment()
+	void setHorizontalPadding(int pixels){}
+	void getHorizontalPadding(){}
+	void insertWidget(Widget widget, Widget beforeWidget){}
+	void setHorizontalAlignment(int horizontalAlignment){}
+	void getHorizontalAlignment(){}
 	}

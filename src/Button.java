@@ -1,6 +1,10 @@
 class Button extends Widget {
-	setText(String text)
-	String getText()
-	setClickHandler (ClickListener clickListener)
-	ClickListener getClickHandler()
+	public void setText(String text){}
+	public void getText(){}
+	public void setClickHandler (ClickListener clickListener){}
+	public void getClickHandler(){}
+
+	public static class ClickListener {
+		public static ClickListener closeButtonClickListener;
 	}
+}

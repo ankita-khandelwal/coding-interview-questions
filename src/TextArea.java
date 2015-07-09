@@ -1,7 +1,8 @@
 class TextArea extends Widget {
-	setText(String text)
-	String getText()
-	setEditable(Boolean editable)
-	enableVerticalScrolling(Boolean scrollable)
-	enableHorizontalScrolling(Boolean scrollable)
+
+	public void setText(String text){}
+	public void getText(){}
+	public void setEditable(Boolean editable){}
+	public void enableVerticalScrolling(Boolean scrollable){}
+	public void enableHorizontalScrolling(Boolean scrollable){}
 	}

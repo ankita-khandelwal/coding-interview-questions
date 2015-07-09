@@ -1,4 +1,3 @@
-
 public class DFS {
 
 	/**
@@ -10,7 +9,7 @@ public class DFS {
 	}
 	
 	
-	
+	/*
 	public static void dfs() {
 	    // DFS uses Stack data structure
 	    Stack stack = new Stack();
@@ -31,6 +30,6 @@ public class DFS {
 	    }
 	    // Clear visited property of nodes
 	    clearNodes();
-	}
+	}*/
 
 }

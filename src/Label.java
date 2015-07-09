@@ -1,4 +1,4 @@
 class Label extends Widget {
-	setText(String text)
-	String getText()
+	void setText(String text){}
+	void getText(){}
 	}

@@ -1,7 +1,6 @@
-
 public class DialogBoxWithOKButton extends DialogBox{
 	
-	ClickListener okButtonClickListener; // should provide functions here of what we want to do when user presses OK button
+	Button.ClickListener okButtonClickListener; // should provide functions here of what we want to do when user presses OK button
 	
 	public DialogBoxWithOKButton(String message, String title)
 	{

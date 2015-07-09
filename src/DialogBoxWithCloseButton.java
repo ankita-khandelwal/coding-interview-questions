@@ -1,7 +1,6 @@
-
 public class DialogBoxWithCloseButton extends DialogBox{
 	
-	 ClickListener closeButtonClickListener;
+	 Button.ClickListener closeButtonClickListener;
 	
 	public DialogBoxWithCloseButton(String message, String title)
 	{
