@@ -9,6 +9,6 @@ package com.deep.graphs;
 
 public enum State {
 
-    UNVISITED, VISITING, VISITED
+    UNVISITED, VISITED
 
 }
