@@ -14,10 +14,17 @@ public class QuickSort {
 		for (int i = 0; i < numbers.length; i++) {
 			numbers[i] = generator.nextInt(20);
 		}
-		quickSort(0,numbers.length-1);
+		System.out.print("Initial list: [");
 		for(int i:numbers){
-			System.out.println(i);
+			System.out.print(i+",");
 		}
+		System.out.println("]");
+		quickSort(0,numbers.length-1);
+		System.out.print("Sorted list: [");
+		for(int i:numbers){
+			System.out.print(i+",");
+		}
+		System.out.println("]");
 	}
 
 	public static void quickSort(int low, int high){
