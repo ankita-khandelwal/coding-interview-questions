@@ -17,12 +17,18 @@ public class JavaCheck {
 
         } else if (aDog.getName().equals("fifi")) {
             System.out.println("Java passes by reference.");
+        } else if (aDog.getName().equals("fofo")) {
+            System.out.println("Java is crazy ");
         }
     }
 
     public static void foo(Dog d) {
         d.setName("fifi");
-        //d = new Dog("fifi");
+        /*
+            Dog newDog = new Dog("fofo");
+            d = newDog;
+            d.setName("Max");
+        */
     }
 
     static class Dog{
